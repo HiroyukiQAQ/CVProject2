@@ -58,7 +58,7 @@ cv2.imwrite(os.path.join(dirname, 'warp1.jpg'), imgw[0])
 
 for k in range(0, 5):
     imgw.append(warpImages(img[0], img[k+1], H2[k]))
-    print(imgw[k+1].shape)
+    # print(imgw[k+1].shape)
     # imgw.append(cv2.warpPerspective(img[k+1], H2[k], (1548, 1152)))
     cv2.imwrite(os.path.join(dirname, 'warp' + str(k+2) + '.jpg'), imgw[k+1])
 
