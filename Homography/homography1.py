@@ -61,7 +61,7 @@ for n in range(0, 5):
     h, mask = cv2.findHomography(pts1, pts2, cv2.RANSAC, 5.0)
 
     H1.append(h)
-    print(H1[n])
+    print('H'+str(n+1)+'_'+str(n+2)+'=', H1[n])
 
 np.savez(out_fn, H1=H1)
 exit()

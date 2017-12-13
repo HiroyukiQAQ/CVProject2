@@ -23,8 +23,8 @@ H2.append(np.dot(H2[2], H1[3]))  #H51  3
 H2.append(np.dot(H2[3], H1[4]))  #H61  4
 
 
-for i in range (0 ,5):
-    print(H2[i])
+for i in range(0, 5):
+    print('H1_'+str(i+2)+'=', H2[i])
 
 np.savez(out_fn, H2=H2)
 

@@ -50,13 +50,11 @@ for fname in images:
 
 rms, mtx, dist, rvecs, tvecs = cv2.calibrateCamera(objpoints, imgpoints, img_size, None, None)
 
-mtx = np.matrix('1358 0 800; 0 1358 600; 0 0 1')
+# mtx = np.matrix('1358 0 800; 0 1358 600; 0 0 1')
 print(rms)
 print(mtx)
 print(dist)
-# print(dist)
-# print(rvecs)
-# print(tvecs)
+
 
 np.savez(out_fn, mtx=mtx, dist=dist, rvecs=rvecs, tvecs=tvecs)
 exit()
