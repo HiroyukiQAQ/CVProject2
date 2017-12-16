@@ -5,7 +5,7 @@ stitcher = cv2.createStitcher(False)
 
 img = []
 
-for i in range (0, 6):
+for i in range(0, 6):
     readimg = cv2.imread('warpedimg/warp'+str(i+1)+'.jpg')
     img.append(readimg)
     print(i)
