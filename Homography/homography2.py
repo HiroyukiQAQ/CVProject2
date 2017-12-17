@@ -24,8 +24,9 @@ H2.append(np.dot(H2[3], H1[4]))  #H61  4
 
 
 for i in range(0, 5):
+    H2[i] = (H2[i])/[H2[i][2,2]]
     print('H1_'+str(i+2)+'=', H2[i])
 
-np.savez(out_fn, H2=H2)
+# np.savez(out_fn, H2=H2)
 
 exit()
