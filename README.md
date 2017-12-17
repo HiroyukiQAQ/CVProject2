@@ -11,9 +11,8 @@ part Undistortion,
      code file is "Undistortion/Undistortion.py", the result pics are saved in folder "Undistortion/undistortion_results"
 
 part Homography, 
-     H12 H23 H34 H45 H56 code file is"Homography/homography1.py", the result is saved in file"Homography/homography1.npz"
-     
-     H12 H13 H14 H15 H16 code file is"Homography/homography2.py", the result is saved in file"Homography/homography2.npz"
+     H12 H23 H34 H45 H56 code file is"Homography/homography1.py", the result is saved in file"Homography/homography1.npz"  
+H12 H13 H14 H15 H16 code file is"Homography/homography2.py", the result is saved in file"Homography/homography2.npz"
      
 part Warp, 
      code file is "warp&stitch/warp.py", the result pics are saved in folder "warp&stitch/warpedimg"
