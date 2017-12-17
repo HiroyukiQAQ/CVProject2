@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="811396e9-ac70-4504-827d-1a462a043520" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Homography/homography2.npz" afterPath="$PROJECT_DIR$/Homography/homography2.npz" />
       <change beforePath="$PROJECT_DIR$/Homography/homography2.py" afterPath="$PROJECT_DIR$/Homography/homography2.py" />
-      <change beforePath="$PROJECT_DIR$/test.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/warp&amp;stitch/warp-test.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/warp&amp;stitch/warp.py" afterPath="$PROJECT_DIR$/warp&amp;stitch/warp.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,7 +29,7 @@
       <file leaf-file-name="CameraCalibration.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CameraCalibration/CameraCalibration.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
+            <state relative-caret-position="780">
               <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="50" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -68,8 +63,8 @@
       <file leaf-file-name="homography2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Homography/homography2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="375">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -78,14 +73,14 @@
       <file leaf-file-name="warp.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/warp&amp;stitch/warp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="710">
+            <state relative-caret-position="507">
               <caret line="53" column="6" lean-forward="false" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stitch.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="stitch.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/warp&amp;stitch/stitch.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
@@ -97,7 +92,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="warp_test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="warp_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/warp&amp;stitch/warp_test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-472">
@@ -501,7 +496,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12473795" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17582418" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="0" y="0" width="300" height="712" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24737945" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -866,46 +861,10 @@
     <entry file="file://$PROJECT_DIR$/Homography/homography.py" />
     <entry file="file://$PROJECT_DIR$/Homography/homograph2.py" />
     <entry file="file://$PROJECT_DIR$/warp/warp.py" />
-    <entry file="file://$PROJECT_DIR$/Undistortion/Undistortion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CameraCalibration/CameraCalibration.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homography/homography1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-325">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Homography/homography2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -925,9 +884,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/warp&amp;stitch/warp_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-472">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CameraCalibration/CameraCalibration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Undistortion/Undistortion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homography/homography1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-325">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homography/homography2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/warp&amp;stitch/warp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="710">
+        <state relative-caret-position="507">
           <caret line="53" column="6" lean-forward="false" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
           <folding />
         </state>
@@ -937,16 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/warp&amp;stitch/warp_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-472">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
