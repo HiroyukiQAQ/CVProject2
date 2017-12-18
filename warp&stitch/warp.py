@@ -9,7 +9,7 @@ parameters = np.load('../Homography/homography2.npz')
 H2 = parameters['H2']
 print(H2)
 
-dirname = 'warpedimg_test'
+dirname = 'warpedimg'
 
 img = []
 
@@ -29,9 +29,9 @@ def warpImages(img, H):
     #print(list_of_points)
 
     x_min, y_min = np.int32(list_of_points.min(axis=0).ravel())
-    # print(x_min, y_min)
+    print(x_min, y_min)
     x_max, y_max = np.int32(list_of_points.max(axis=0).ravel())
-    # print(x_max, y_max)
+    print(x_max, y_max)
 
     H_translation = np.array([[1, 0, -x_min], [0, 1, -y_min], [0, 0, 1]])
 
