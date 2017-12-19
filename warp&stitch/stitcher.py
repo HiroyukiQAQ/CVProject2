@@ -87,7 +87,7 @@ def stitch_img(l, r, a):
 
     for x in range(tx[a]+1, xl_max):
         for y in range(0, min(yl_max, yr_max)):
-            super_img[y][x] = (l[y][x]+r[y][x])/2
+            super_img[y][x] = r[y][x]
 
     for x in range(xl_max+1, xr_max):
         for y in range(yr_min, yr_max):
@@ -106,6 +106,6 @@ for j in range(0, 5):
     print('stitch.size=', stitch_result.shape)
     result = stitch_result
 
-cv2.imwrite('stitichimg/superimage1.jpg', result)
+cv2.imwrite('stitichimg/superimage3.jpg', result)
 
 exit()
